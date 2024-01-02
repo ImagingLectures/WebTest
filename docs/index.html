@@ -11,12 +11,27 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
       crossorigin="anonymous">
   </head>
+  
+  <script>
+      function load(src,dest) {
+        var file = new XMLHttpRequest();
+        file.open("GET", src, true);
+        file.onreadystatechange = function() {
+          if (file.readyState === 4) {  // Makes sure the document is ready to parse
+            if (file.status === 200) {  // Makes sure it's found the file
+              text = file.responseText;
+              document.getElementById(dest).innerHTML = text;
+            }
+          }
+        }
+    }
+  </script>
 
   <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">QBI 2024</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,10 +58,6 @@
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -56,14 +67,14 @@
   <!-- OTHER STUFF ON THE PAGE -->
 
   <div class="container">
-    <div class="jumbotron">
+    <div class="mt-4 p-5 bg-light rounded" id="mainview">
       <h1>Welcome</h1>
       <p>Welcome text</p>
     </div>
 
   </div>
   <div class="container">
-    <div class="jumbotron">
+    <div class="mt-4 p-5 bg-primary text-white rounded">
         <h2>Storage status</h2>
         <p>Free space on data server: </p>
         <p>You have xyz projects which require xyz Gb.</p>
@@ -72,7 +83,10 @@
 
   </div>
 
-
+  <script>
+    window.onLoad = load("file://maintext.txt","mainview");
+  </script>
+  
 
   <!-- Need to have JQuery and Javascript for DropDown Actions to work -->
 
