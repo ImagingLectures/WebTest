@@ -29,6 +29,19 @@
     function show_text(text,dest) {
       document.getElementById(dest).innerHTML = text;
     }
+
+    function load_table(dest)
+    {
+      const url = 'https://imaginglectures.github.io/WebTest/pages/weeklyplan.json';
+  
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          // You can now use your JSON data here
+          console.log(data);
+        })
+        .catch(error => console.error('Error:', error));
+    }
   </script>
 
   <body>   
@@ -48,7 +61,7 @@
                 Details
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#" onclick="load_text('https://imaginglectures.github.io/WebTest/pages/weeklyplan.txt','mainview')">Weekly lecture plan</a></li>
+                <li><a class="dropdown-item" href="#" onclick="load_table('mainview')">Weekly lecture plan</a></li>
                 <li><a class="dropdown-item" href="#" onclick="load_text('https://imaginglectures.github.io/WebTest/pages/exercises.txt','mainview')">Exercises</a></li>
                 <li><a class="dropdown-item" href="#" onclick="load_text('https://imaginglectures.github.io/WebTest/pages/communication.txt','mainview')">Communication and feedback</a></li>
                 <!-- <li><hr class="dropdown-divider"></li> -->
