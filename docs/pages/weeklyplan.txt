@@ -1,7 +1,7 @@
 <table id="weeklyTable">
   <thead>
     <tr>
-      <th>Index</th>
+      <th>#</th>
       <th>Icon</th>
       <th>Title</th>
       <th>Date</th>
