@@ -32,15 +32,40 @@
 
     function load_table(dest)
     {
+      load_text('https://imaginglectures.github.io/WebTest/pages/weeklyplan.txt',dest);
+
       const url = 'https://imaginglectures.github.io/WebTest/pages/weeklyplan.json';
   
       fetch(url)
-        .then(response => response.json())
-        .then(data => {
-          // You can now use your JSON data here
-          console.log(data);
-        })
-        .catch(error => console.error('Error:', error));
+  .then(response => response.json())
+  .then(data => {
+    const tbody = document.getElementById('weeklyTable').getElementsByTagName('tbody')[0];
+
+    data.forEach(item => {
+      const row = tbody.insertRow();
+
+      const cellIndex = row.insertCell();
+      const cellIcon = row.insertCell();
+      const cellTitle = row.insertCell();
+      const cellDate = row.insertCell();
+      const cellNotebook = row.insertCell();
+      const cellSlides = row.insertCell();
+      const cellPdf = row.insertCell();
+      const cellVideos = row.insertCell();
+      const cellExercises = row.insertCell();
+
+      cellIndex.textContent = item.index;
+      cellIcon.textContent = item.icon;
+      cellTitle.textContent = item.title;
+      cellDate.textContent = item.date;
+      cellNotebook.textContent = item.notebook;
+      cellSlides.textContent = item.slides;
+      cellPdf.textContent = item.pdf;
+      cellVideos.textContent = item.videos;
+      cellExercises.textContent = item.exercises;
+    });
+  })
+  .catch(error => console.error('Error:', error));
     }
   </script>
 

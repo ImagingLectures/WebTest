@@ -1,0 +1,18 @@
+<table id="weeklyTable">
+  <thead>
+    <tr>
+      <th>Index</th>
+      <th>Icon</th>
+      <th>Title</th>
+      <th>Date</th>
+      <th>Notebook</th>
+      <th>Slides</th>
+      <th>PDF</th>
+      <th>Videos</th>
+      <th>Exercises</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Table data will be inserted here -->
+  </tbody>
+</table>
