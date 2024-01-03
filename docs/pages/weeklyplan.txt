@@ -6,11 +6,11 @@
       <th style="width:60px">Icon</th>
       <th style="width:65em">Title</th>
       <th style="width:8em">Date</th>
-      <th>Notebook</th>
-      <th>Slides</th>
-      <th>PDF</th>
-      <th>Videos</th>
-      <th>Exercises</th>
+      <th style="width:12em">Notebook</th>
+      <th style="width:12em">Slides</th>
+      <th style="width:12em">PDF</th>
+      <th style="width:12em">Videos</th>
+      <th style="width:12em">Exercises</th>
     </tr>
   </thead>
   <tbody>
