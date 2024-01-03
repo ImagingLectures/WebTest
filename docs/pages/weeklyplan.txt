@@ -2,10 +2,10 @@
 <table class="table table-bordered" id="weeklyTable" width="1400px">
   <thead class="thead-light">
     <tr>
-      <th width="3em">#</th>
-      <th width="60px">Icon</th>
-      <th width="65em">Title</th>
-      <th width="8em">Date</th>
+      <th style="width:3em">#</th>
+      <th style="width:60px">Icon</th>
+      <th style="width:65em">Title</th>
+      <th style="width:8em">Date</th>
       <th>Notebook</th>
       <th>Slides</th>
       <th>PDF</th>
