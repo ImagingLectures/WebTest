@@ -148,7 +148,7 @@
                 "icon":"figures/YouTube_OldRecording.svg"
             }],
     "exercises":"https://github.com/ImagingLectures/Quantitative-Big-Imaging-2024/tree/main/Exercises/07-ComplexObjects"
-},    
+},   
 {
     "index":8,
     "icon":"figures/np_statistics_4108630_000000.svg",
@@ -179,8 +179,8 @@
     "pdf":"",
     "videos": "",
     "exercises":""
-  },
-  {
+},
+{
     "index":9,
     "icon":"figures/np_timing_4137191_000000.png",
     "title":"Dynamic Experiments",
@@ -199,8 +199,8 @@
                 "icon":"figures/YouTube_OldRecording.svg"
             }],
     "exercises":""
-  },
-  {
+},
+{
     "index":10,
     "icon":"figures/np_combine_156599_000000.svg",
     "title":"Imaging with multiple modalities",
@@ -219,7 +219,7 @@
                 "icon":"figures/YouTube_OldRecording.svg"
             }],
     "exercises":""
-  },
+},
 {
     "index":11,
     "icon":"figures/np_computing_4145847_000000.svg",
@@ -239,8 +239,8 @@
                 "icon":"figures/YouTube_OldRecording.svg"
             }],
     "exercises":""
-  },
-  {
+},
+{
     "index":12,
     "icon":"figures/np_classification-analysis_1630947_000000.svg",
     "title":"Project consultation (make appointments)",
@@ -250,8 +250,8 @@
     "pdf":"",
     "videos":"",
     "exercises":""
-  },
-  {
+},
+{
     "index":13,
     "icon":"figures/np_mystical-ascention_75128_000000.svg",
     "title":"Project consultation (make appointments) / Ascension (no lecture)",
@@ -261,8 +261,8 @@
     "pdf":"",
     "videos":"",
     "exercises":""
-  },
-  {
+},
+{
     "index":14,
     "icon":"figures/np_financial-presentation_818023_000000.svg",
     "title":"Project presentation. Program T.B.D.",
@@ -272,6 +272,5 @@
     "pdf":"",
     "videos":"",
     "exercises":""
-  }
-
+}
 ]
