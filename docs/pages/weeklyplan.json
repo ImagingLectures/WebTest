@@ -177,7 +177,7 @@
     "notebook":"",
     "slides":"",
     "pdf":"",
-    "videos": "",
+    "videos": [],
     "exercises":""
 },
 {
@@ -248,7 +248,7 @@
     "notebook":"",
     "slides":"",
     "pdf":"",
-    "videos":"",
+    "videos": [],
     "exercises":""
 },
 {
@@ -259,7 +259,7 @@
     "notebook":"",
     "slides":"",
     "pdf":"",
-    "videos":"",
+    "videos": [],
     "exercises":""
 },
 {
@@ -270,7 +270,7 @@
     "notebook":"",
     "slides":"",
     "pdf":"",
-    "videos":"",
+    "videos": [],
     "exercises":""
 }
 ]
