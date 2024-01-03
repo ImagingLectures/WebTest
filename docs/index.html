@@ -15,30 +15,15 @@
   <script>
     function load_text(src,dest) 
     {
-      console.log("load_text "+src+" "+dest);
       var file = new XMLHttpRequest();
       file.open("GET", src, false);
       file.send();
-      console.log("file opened" + file.readyState);
 
-      // file.onreadystatechange = function() 
-      // {
-      //   if (file.readyState === 4) 
-      //   {  // Makes sure the document is ready to parse
-      //     console.log("file ready");
-          if (file.status === 200) 
-          {  // Makes sure it's found the file
-            text = file.responseText;
-            console.log(text);
-            document.getElementById(dest).innerHTML = text;
-          }
-        // }
-        // else
-        // {
-        //   console.log("file not ready");
-        // }
-      // }
-      console.log("done")
+      if (file.status === 200) 
+      {  // Makes sure it's found the file
+        text = file.responseText;
+        document.getElementById(dest).innerHTML = text;
+      }
     }
 
     function show_text(text,dest) {
@@ -46,8 +31,7 @@
     }
   </script>
 
-  <body>
-    
+  <body>   
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">QBI 2024</a>
@@ -57,24 +41,32 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                Details
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Weekly lecture plan</a></li>
+                <li><a class="dropdown-item" href="#">Exercises</a></li>
+                <li><a class="dropdown-item" href="#">Communication and feedback</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <li><a class="dropdown-item" href="#">Software dependencies</a></li>
+                <li><a class="dropdown-item" href="#">Other relevant information</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#" onclick="load_text('https://imaginglectures.github.io/WebTest/pages/learningobjectives.txt','mainview')">Learning objectives</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Target audience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Final exam</a>
             </li>
           </ul>
         </div>
@@ -83,8 +75,7 @@
  
 
 
-  <!-- OTHER STUFF ON THE PAGE -->
-
+  <!-- The main container -->
   <div class="container">
     <div class="mt-4 p-5 bg-light rounded" id="mainview">
       <h1>Welcome</h1>
@@ -92,11 +83,10 @@
     </div>
 
   </div>
+    <!-- The footer container -->
   <div class="container">
     <div class="mt-4 p-5 bg-primary text-white rounded">
-        <h2>Storage status</h2>
-        <p>Free space on data server: </p>
-        <p>You have xyz projects which require xyz Gb.</p>
+        (c) 2024, Anders Kaestner
     </div>
   </div>
 
