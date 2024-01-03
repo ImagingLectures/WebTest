@@ -13,17 +13,36 @@
   </head>
   
   <script>
-      function load(src,dest) {
-        var file = new XMLHttpRequest();
-        file.open("GET", src, true);
-        file.onreadystatechange = function() {
-          if (file.readyState === 4) {  // Makes sure the document is ready to parse
-            if (file.status === 200) {  // Makes sure it's found the file
-              text = file.responseText;
-              document.getElementById(dest).innerHTML = text;
-            }
+    function load_text(src,dest) 
+    {
+      console.log("load_text "+src+" "+dest);
+      var file = new XMLHttpRequest();
+      file.open("GET", src, false);
+      file.send();
+      console.log("file opened" + file.readyState);
+
+      // file.onreadystatechange = function() 
+      // {
+      //   if (file.readyState === 4) 
+      //   {  // Makes sure the document is ready to parse
+      //     console.log("file ready");
+          if (file.status === 200) 
+          {  // Makes sure it's found the file
+            text = file.responseText;
+            console.log(text);
+            document.getElementById(dest).innerHTML = text;
           }
-        }
+        // }
+        // else
+        // {
+        //   console.log("file not ready");
+        // }
+      // }
+      console.log("done")
+    }
+
+    function show_text(text,dest) {
+      document.getElementById(dest).innerHTML = text;
     }
   </script>
 
@@ -79,12 +98,11 @@
         <p>Free space on data server: </p>
         <p>You have xyz projects which require xyz Gb.</p>
     </div>
-    
-
   </div>
 
   <script>
-    window.onLoad = load("file://maintext.txt","mainview");
+    //show_text("<h1>Hej hopp</h1><p>Some text</p>","mainview");
+    document.onload = load_text("https://imaginglectures.github.io/WebTest/pages/maintext.txt","mainview");
   </script>
   
 
