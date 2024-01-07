@@ -160,7 +160,6 @@
     "title":"Easter break (no lecture)",
     "date":"4 Apr",
     "notebook":[],
-    "slides":"",
     "pdf":"",
     "videos": [],
     "exercises":""
@@ -257,10 +256,9 @@
 {
     "index":"-",
     "icon":"figures/np_mystical-ascention_75128_000000.svg",
-    "title":"Ascention (no lecture)",
+    "title":"Project consultation (make appointments)Ascention (no lecture)",
     "date":"9 May",
     "notebook":[],
-    "slides":"",
     "pdf":"",
     "videos": [],
     "exercises":""
@@ -297,29 +295,16 @@
     "title":"Project consultation (make appointments)",
     "date":"W20",
     "notebook":[],
-    "slides":"",
     "pdf":"",
     "videos": [],
     "exercises":""
 },
 {
     "index":13,
-    "icon":"",
-    "title":"Project consultation (make appointments) / Ascension (no lecture)",
-    "date":"W21",
-    "notebook":[],
-    "slides":"",
-    "pdf":"",
-    "videos": [],
-    "exercises":""
-},
-{
-    "index":14,
     "icon":"figures/np_financial-presentation_818023_000000.svg",
     "title":"Project presentation. Program T.B.D.",
     "date":"30 May",
     "notebook":[],
-    "slides":"",
     "pdf":"",
     "videos": [],
     "exercises":""
