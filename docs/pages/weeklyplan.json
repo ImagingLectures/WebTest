@@ -3,9 +3,11 @@
     "index":1,
     "icon":"figures/np_introduction_3382970_000000.svg",
     "title":"Introduction and Workflows",
-    "date":"23 Feb",
-    "notebook":"https://nbviewer.jupyter.org/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-01/01-Introduction.ipynb",
-    "slides":"https://nbviewer.jupyter.org/format/slides/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-01/01-Introduction.ipynb",
+    "date":"22 Feb",
+    "notebook":[{
+        "label":"Part 1",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-01/01-Introduction.ipynb"
+        }],
     "pdf":"https://imaginglectures.github.io/Quantitative-Big-Imaging-2024/lecturenotes/QBI-Lecture01-Introduction.pdf",
     "videos":[{
                 "label":"Part 1",
@@ -23,9 +25,11 @@
     "index":2,
     "icon":"figures/np_data_3132352_000000.svg",
     "title":"Building and Augmenting Datasets",
-    "date":"2 Mar",
-    "notebook":"https://nbviewer.jupyter.org/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-02/02-Datasets.ipynb",
-    "slides":"https://nbviewer.jupyter.org/format/slides/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-02/02-Datasets.ipynb",
+    "date":"29 Feb",
+    "notebook":[{
+        "label":"Part 1",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-02/02-Datasets.ipynb"
+        }],
     "pdf":"https://imaginglectures.github.io/Quantitative-Big-Imaging-2024/lecturenotes/QBI-Lecture02-Datasets.pdf",
     "videos":[{
                 "label":"Part 1",
@@ -43,9 +47,11 @@
     "index":3,
     "icon":"figures/np_photo-filters_2344219_000000.svg",
     "title":"Image enhancement",
-    "date":"9 Mar",
-    "notebook":"https://nbviewer.jupyter.org/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-03/03-ImageEnhancement.ipynb",
-    "slides":"https://nbviewer.jupyter.org/format/slides/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-03/03-ImageEnhancement.ipynb",
+    "date":"7 Mar",
+    "notebook":[{
+        "label":"Part 1",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-03/03-ImageEnhancement.ipynb"
+        }],
     "pdf":"https://imaginglectures.github.io/Quantitative-Big-Imaging-2024/lecturenotes/QBI-Lecture03-ImageEnhancement.pdf",
     "videos":[{
                 "label":"Part 1",
@@ -63,9 +69,15 @@
     "index":4,
     "icon":"figures/np_segmentation_4159870_000000.svg",
     "title":"Basic Segmentation, Discrete Binary Structures (Pre-recorded lecture)",
-    "date":"16 Mar",
-    "notebook":"https://nbviewer.jupyter.org/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-04/04-BasicSegmentation.ipynb",
-    "slides":"https://nbviewer.jupyter.org/format/slides/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-04/04-BasicSegmentation.ipynb",
+    "date":"14 Mar",
+    "notebook":[{
+        "label":"Part 1",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-04/04-BasicSegmentation.ipynb"
+        },
+        {
+        "label":"Part 2",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-04/04-BasicSegmentation_Part2.ipynb"    
+        }],
     "pdf":"https://imaginglectures.github.io/Quantitative-Big-Imaging-2024/lecturenotes/QBI-Lecture04-BasicSegmentation.pdf",
     "videos":[{
                 "label":"Part 1",
@@ -93,9 +105,15 @@
     "index":5,
     "icon":"figures/np_machine-learning_4474871_000000.svg",
     "title":"Advanced Segmentation",
-    "date":"23 Mar",
-    "notebook":"https://nbviewer.jupyter.org/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-05/05-AdvancedSegmentation.ipynb",
-    "slides":"https://nbviewer.jupyter.org/format/slides/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-05/05-AdvancedSegmentation.ipynb",
+    "date":"21 Mar",
+    "notebook":[{
+        "label":"Part 1",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-05/05-AdvancedSegmentation.ipynb"
+        },
+        {
+        "label":"Part 2",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-05/05-SupervisedSegmentation.ipynb"
+        }],
     "pdf":"https://imaginglectures.github.io/Quantitative-Big-Imaging-2024/lecturenotes/QBI-Lecture05-AdvancedSegmentation.pdf",
     "videos":[{
                 "label":"Part 1",
@@ -113,9 +131,16 @@
     "index":6,
     "icon":"figures/np_shape_2328381_000000.svg",
     "title":"Analyzing Single Objects, Shape and Texture",
-    "date":"30 Mar",
-    "notebook":"https://nbviewer.jupyter.org/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-06/06-ShapeAnalysis.ipynb",
-    "slides":"https://nbviewer.jupyter.org/format/slides/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-06/06-ShapeAnalysis.ipynb",
+    "date":"28 Mar",
+    "notebook":[{
+        "label":"Part 1",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-06/06-ShapeAnalysis.ipynb"
+        },
+        {
+            "label":"Part 2",
+            "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-06/06-AdvancedShapeAndTexture.ipynb"
+        }
+        ],
     "pdf":"https://imaginglectures.github.io/Quantitative-Big-Imaging-2024/lecturenotes/QBI-Lecture06-ShapeAnalysis.pdf",
     "videos":[{
                 "label":"Part 1",
@@ -130,12 +155,25 @@
     "exercises":"https://github.com/ImagingLectures/Quantitative-Big-Imaging-2024/tree/main/Exercises/06-Shapes"
 },
 {
+    "index":"-",
+    "icon":"figures/np_easter-bunny_2288018_000000.svg",
+    "title":"Easter break (no lecture)",
+    "date":"4 Apr",
+    "notebook":[],
+    "slides":"",
+    "pdf":"",
+    "videos": [],
+    "exercises":""
+},
+{
     "index":7,
     "icon":"figures/np_machine-learning_1701180_000000.svg",
     "title":"Analyzing Complex Objects",
-    "date":"6 Apr",
-    "notebook":"https://nbviewer.jupyter.org/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-07/07-ComplexObjects.ipynb",
-    "slides":"https://nbviewer.jupyter.org/format/slides/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-07/07-ComplexObjects.ipynb",
+    "date":"11 Apr",
+    "notebook":[{
+        "label":"Part 1",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-07/07-ComplexObjects.ipynb"
+        }],
     "pdf":"https://imaginglectures.github.io/Quantitative-Big-Imaging-2024/lecturenotes/QBI-Lecture07-ComplexShape.pdf",
     "videos":[{
                 "label":"Part 1",
@@ -153,9 +191,11 @@
     "index":8,
     "icon":"figures/np_statistics_4108630_000000.svg",
     "title":"Statistics, Prediction, and Reproducibility",
-    "date":"20 Apr",
-    "notebook":"https://nbviewer.jupyter.org/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-08/08-Statistics.ipynb",
-    "slides":"https://nbviewer.jupyter.org/format/slides/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-08/08-Statistics.ipynb",
+    "date":"18 Apr",
+    "notebook":[{
+        "label":"Part 1",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-08/08-Statistics.ipynb"
+    }],
     "pdf":"https://imaginglectures.github.io/Quantitative-Big-Imaging-2024/lecturenotes/QBI-Lecture08-Statistics.pdf",
     "videos":[{
                 "label":"Part 1",
@@ -169,24 +209,16 @@
             }],
     "exercises":"https://github.com/ImagingLectures/Quantitative-Big-Imaging-2024/tree/main/Exercises/08-Statistics"
 },
-{
-    "index":"-",
-    "icon":"figures/np_easter-bunny_2288018_000000.svg",
-    "title":"Easter break (no lecture)",
-    "date":"13 Apr",
-    "notebook":"",
-    "slides":"",
-    "pdf":"",
-    "videos": [],
-    "exercises":""
-},
+
 {
     "index":9,
     "icon":"figures/np_timing_4137191_000000.png",
     "title":"Dynamic Experiments",
-    "date":"27 Apr",
-    "notebook":"https://nbviewer.jupyter.org/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-09/09-DynamicExperiments.ipynb",
-    "slides":"https://nbviewer.jupyter.org/format/slides/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-09/09-DynamicExperiments.ipynb",
+    "date":"25 Apr",
+    "notebook":[{
+        "label":"Part 1",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-09/09-DynamicExperiments.ipynb"
+        }],
     "pdf":"https://imaginglectures.github.io/Quantitative-Big-Imaging-2024/lecturenotes/QBI-Lecture09-DynamicExperiments.pdf",
     "videos":[{
                 "label":"Part 1",
@@ -204,9 +236,11 @@
     "index":10,
     "icon":"figures/np_combine_156599_000000.svg",
     "title":"Imaging with multiple modalities",
-    "date":"4 May",
-    "notebook":"https://nbviewer.jupyter.org/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-10/10-BimodalExperiments.ipynb",
-    "slides":"https://nbviewer.jupyter.org/format/slides/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-10/10-BimodalExperiments.ipynb",
+    "date":"2 May",
+    "notebook":[{
+        "label":"Part 1",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-10/10-BimodalExperiments.ipynb"
+        }],
     "pdf":"https://imaginglectures.github.io/Quantitative-Big-Imaging-2024/lecturenotes/QBI-Lecture10-BimodalExperiments.pdf",
     "videos":[{
                 "label":"Part 1",
@@ -221,12 +255,29 @@
     "exercises":""
 },
 {
+    "index":"-",
+    "icon":"figures/np_mystical-ascention_75128_000000.svg",
+    "title":"Ascention (no lecture)",
+    "date":"9 May",
+    "notebook":[],
+    "slides":"",
+    "pdf":"",
+    "videos": [],
+    "exercises":""
+},
+{
     "index":11,
     "icon":"figures/np_computing_4145847_000000.svg",
     "title":"Scaling Up / Big Data",
-    "date":"11 May",
-    "notebook":"https://nbviewer.jupyter.org/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-11/11-ScalingUp.ipynb",
-    "slides":"https://nbviewer.jupyter.org/format/slides/github/ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-11/11-ScalingUp.ipynb",
+    "date":"16 May",
+    "notebook":[{
+        "label":"Part 1",
+        "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-11/11-ScalingUp.ipynb"
+        },
+        {
+            "label":"Part 2",
+            "link":"ImagingLectures/Quantitative-Big-Imaging-2024/blob/main/Lectures/Lecture-11/11-WrapUpQBI.ipynb"
+        }],
     "pdf":"https://imaginglectures.github.io/Quantitative-Big-Imaging-2024/lecturenotes/QBI-Lecture11-ScalingUp.pdf",
     "videos":[{
                 "label":"Part 1",
@@ -245,7 +296,7 @@
     "icon":"figures/np_classification-analysis_1630947_000000.svg",
     "title":"Project consultation (make appointments)",
     "date":"W20",
-    "notebook":"",
+    "notebook":[],
     "slides":"",
     "pdf":"",
     "videos": [],
@@ -253,10 +304,10 @@
 },
 {
     "index":13,
-    "icon":"figures/np_mystical-ascention_75128_000000.svg",
+    "icon":"",
     "title":"Project consultation (make appointments) / Ascension (no lecture)",
     "date":"W21",
-    "notebook":"",
+    "notebook":[],
     "slides":"",
     "pdf":"",
     "videos": [],
@@ -266,8 +317,8 @@
     "index":14,
     "icon":"figures/np_financial-presentation_818023_000000.svg",
     "title":"Project presentation. Program T.B.D.",
-    "date":"1 Jun",
-    "notebook":"",
+    "date":"30 May",
+    "notebook":[],
     "slides":"",
     "pdf":"",
     "videos": [],
