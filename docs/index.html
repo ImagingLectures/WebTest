@@ -13,6 +13,8 @@
   </head>
   
   <script>
+
+
     function load_text(src,dest) 
     {
       var file = new XMLHttpRequest();
@@ -23,8 +25,19 @@
       {  // Makes sure it's found the file
         text = file.responseText;
         document.getElementById(dest).innerHTML = text;
+
+        // Add a new entry to the history stack
+        window.history.pushState({src: src, dest: dest}, '', '?src=' + encodeURIComponent(src));
       }
     }
+
+    // Listen for back/forward navigation
+    window.onpopstate = function(event) {
+      if (event.state) {
+        // Re-load the text without adding a new history entry
+        load_text(event.state.src, event.state.dest);
+      }
+    };
 
     function show_text(text,dest) {
       document.getElementById(dest).innerHTML = text;
